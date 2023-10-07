@@ -8,7 +8,8 @@ const firebaseConfig = {
   storageBucket: "prodo-cc27b.appspot.com",
   messagingSenderId: "99307923792",
   appId: "1:99307923792:web:9e9976bae4bd0cc99a6455",
-  measurementId: "G-9ZF7EMNTQC"
+  measurementId: "G-9ZF7EMNTQC",
+  databaseURL: "https://prodo-cc27b-default-rtdb.firebaseio.com/",
 };
 
 // Initialize Firebase
