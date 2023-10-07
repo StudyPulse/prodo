@@ -114,7 +114,7 @@ const Cards = () => {
       </div>
       <div className="flex flex-wrap justify-center mx-2">
         <CardItem
-          title="Monthly"
+          title="Free"
           Cost={0.005}
           Pay={MonthlycardPrice.toFixed(1)}
           image="https://example.com/image1.png"
@@ -127,7 +127,7 @@ const Cards = () => {
           showChecks={true}
         />
         <CardItem
-          title="Yearly"
+          title="Student"
           Cost={0.008}
           Pay={YearlycardPrice.toFixed(1)}
           image="https://example.com/image2.png"
@@ -144,4 +144,4 @@ const Cards = () => {
   );
 };
 
-export default Orders;
+export default Cards;
