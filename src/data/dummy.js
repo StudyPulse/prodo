@@ -560,24 +560,10 @@ export const links = [
 export const cartData = [
   {
     image:
-      product5,
-    name: 'butterscotch ice-cream',
-    category: 'Milk product',
-    price: '$250',
-  },
-  {
-    image:
       product6,
-    name: 'Supreme fresh tomato',
-    category: 'Vegetable Item',
-    price: '$450',
-  },
-  {
-    image:
-      product7,
-    name: 'Red color candy',
-    category: 'Food Item',
-    price: '$190',
+    name: 'Premium',
+    category: '',
+    price: '$25',
   },
 ];
 
@@ -585,7 +571,7 @@ export const chatData = [
   {
     image:
       avatar2,
-    message: 'Roman Joined the Team!',
+    message: 'Roman Completed his Tasks!',
     desc: 'Congratulate him',
     time: '9:08 AM',
   },
@@ -598,16 +584,16 @@ export const chatData = [
   },
   {
     image:
-      avatar4,
-    message: 'New Payment received',
-    desc: 'Check your earnings',
-    time: '4:39 AM',
+      avatar,
+    message: 'You have a task left',
+    desc: 'Check your Calendar',
+    time: '9:39 AM',
   },
   {
     image:
-      avatar,
-    message: 'Jolly completed tasks',
-    desc: 'Assign her new tasks',
+      avatar4,
+    message: 'Jolly completed monthly tasks',
+    desc: 'Congratulate him',
     time: '1:12 AM',
   },
 ];
