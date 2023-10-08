@@ -34,7 +34,7 @@ const Cart = () => {
                     <p className="font-semibold text-lg">{item.price}</p>
                     <div className="flex items-center border-1 border-r-0 border-color rounded">
                       <p className="p-2 border-r-1 dark:border-gray-600 border-color text-red-600 "><AiOutlineMinus /></p>
-                      <p className="p-2 border-r-1 border-color dark:border-gray-600 text-green-600">0</p>
+                      <p className="p-2 border-r-1 border-color dark:border-gray-600 text-green-600">1</p>
                       <p className="p-2 border-r-1 border-color dark:border-gray-600 text-green-600"><AiOutlinePlus /></p>
                     </div>
                   </div>
@@ -46,11 +46,11 @@ const Cart = () => {
         <div className="mt-3 mb-3">
           <div className="flex justify-between items-center">
             <p className="text-gray-500 dark:text-gray-200">Sub Total</p>
-            <p className="font-semibold">$890</p>
+            <p className="font-semibold">$25</p>
           </div>
           <div className="flex justify-between items-center mt-3">
             <p className="text-gray-500 dark:text-gray-200">Total</p>
-            <p className="font-semibold">$890</p>
+            <p className="font-semibold">$25</p>
           </div>
         </div>
         <div className="mt-5">
@@ -58,7 +58,7 @@ const Cart = () => {
             color="white"
             bgColor={currentColor}
             text="Place Order"
-            borderRadius="10px"
+            borderRadius="10px"car
             width="full"
           />
         </div>

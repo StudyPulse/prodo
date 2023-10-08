@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Header } from '../components';
 
-const Employees = () => {
+const Timer = () => {
   const [timerDuration] = useState(10 * 60); // 10 minutes in seconds
   const [timerValue, setTimerValue] = useState(timerDuration);
   const [timerRunning, setTimerRunning] = useState(false);
@@ -77,5 +77,5 @@ const formatTime = (seconds) => {
   return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
 };
 
-export default Employees;
+export default Timer;
 
