@@ -126,6 +126,7 @@ Open a terminal or Git command line and navigate to your web application's repos
 
 bash
 Copy code
+
 git checkout -b new-branch-name
 Replace new-branch-name with a meaningful name for your branch. This will create a new branch and switch to it.
 
@@ -136,7 +137,9 @@ Stage and Commit Changes:
 After making changes, stage the files for the commit using:
 
 bash
+
 Copy code
+
 git add .
 This stages all changes. You can also specify individual files to stage.
 
@@ -144,12 +147,14 @@ Then, commit the changes with a descriptive message:
 
 bash
 Copy code
+
 git commit -m "Add feature XYZ"
 Push the Branch:
 To share your branch and its changes with others or to deploy changes to a web server, push the branch to the remote repository (like GitHub, GitLab, or Bitbucket):
 
 bash
 Copy code
+
 git push origin new-branch-name
 Replace new-branch-name with your branch's name.
 
@@ -161,6 +166,7 @@ Once your changes have been reviewed (if applicable), you can merge the branch i
 
 bash
 Copy code
+
 git checkout main  # Switch to the main branch
 git merge new-branch-name  # Merge the new branch into the main branch
 Delete the Branch (Optional):
