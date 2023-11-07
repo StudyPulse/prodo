@@ -33,6 +33,18 @@ docker build -t getting-started .
 
 docker run -dp 127.0.0.1:3000:3000 getting-started
 
+docker pull image_name: Pull an image or a repository from a registry.
+
+docker run [OPTIONS] IMAGE [COMMAND] [ARG...]: Create a container from an image.
+
+docker ps [OPTIONS]: List all the containers.
+
+docker start [OPTIONS] CONTAINER [CONTAINER...]: Start one or more running containers.
+
+docker stop [OPTIONS] CONTAINER [CONTAINER...]: Stop one or more running containers.
+
+docker push [OPTIONS] NAME[:TAG]: Upload an image to a registry.
+
 
 
 
