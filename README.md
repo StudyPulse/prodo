@@ -88,18 +88,30 @@ pipeline {
 
 ### git 
 
-git init 
 
-git config --global user.name 'username'
+git --version
 
-git config --global user.email 'email' 
+git config --global user.name ""
 
-git add remote origin <repo_link>
+git config --global user.email ""
 
-git branch -M main
+git init
 
-git add <file>
+git status
 
-git commit -M 'message'
+git add ""
 
-git push 
+git commit -m ""
+
+git status --short
+
+git log
+
+git branch ""
+
+git checkout ""
+
+git merge ""
+
+git branch -d "" 
+
