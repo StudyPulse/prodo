@@ -218,3 +218,33 @@ git branch -d new-branch-name
 The branch is now merged into the main branch, and the changes are reflected in the web application.
 
 These steps should help you manage branching for your web application in a Git repository.
+
+
+
+## ADEVOPS 
+
+### Terraform 
+
+```
+provider "aws" {
+  region = "us-west-2"
+}
+
+resource "aws_instance" "example" {
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = "t2.micro"
+}
+```
+
+### LAMBDA 
+
+```
+def lambda_handler(event, context):
+    print("FIRST LAMBDA FUNCTION")
+    if event['planet'] == 'Earth':
+        return 'Moon'
+    elif event['planet'] == 'Sun':
+        return 'Not a planet'
+    else:
+        return 'No need'
+```
